@@ -15,7 +15,7 @@ const argv = yargs
     .argv;
 
 if (argv.address === ''){
-    argv.address = '06824'
+    argv.address = '08822'
 }
 
 var encodedAddress = encodeURIComponent(argv.address);
